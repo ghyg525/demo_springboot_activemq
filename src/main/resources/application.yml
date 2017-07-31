@@ -1,0 +1,12 @@
+
+## activemq配置 org.springframework.boot.autoconfigure.jms.activemq.ActiveMQProperties
+spring: 
+  activemq: 
+    brokerUrl: tcp://localhost:61616
+      
+
+##日志配置
+logging:
+  level:
+    org:
+      springframework: info
